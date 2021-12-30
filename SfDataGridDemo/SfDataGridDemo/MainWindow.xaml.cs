@@ -17,7 +17,7 @@ namespace SfDataGridDemo
             this.InitializeComponent();            
         }       
 
-        private void OnSerializationClicked(object sender, RoutedEventArgs e)
+        private void OnSerializeClicked(object sender, RoutedEventArgs e)
         {
             if (dataGrid == null) return;
             var serializationOptions = new SerializationOptions()
@@ -30,7 +30,7 @@ namespace SfDataGridDemo
             }            
         }
 
-        private void OnDeSerializationClicked(object sender, RoutedEventArgs e)
+        private void OnDeserializeClicked(object sender, RoutedEventArgs e)
         {
             if (dataGrid == null) return;
             var deserializationOptions = new DeserializationOptions()

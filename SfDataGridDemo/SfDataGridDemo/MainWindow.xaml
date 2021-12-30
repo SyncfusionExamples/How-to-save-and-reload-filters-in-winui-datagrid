@@ -22,8 +22,8 @@
             </syncfusion:SfDataGrid.DataContext>            
         </syncfusion:SfDataGrid>
         <StackPanel Grid.Column="1">
-            <Button x:Name="Serialization" Width="150" Height="40" Margin="5" Content="Serialization" Click="OnSerializationClicked"/>
-            <Button x:Name="Deserialization" Width="150" Height="40" Margin="5" Content="DeSerialization" Click="OnDeSerializationClicked"/>
+            <Button x:Name="Serialize" Width="150" Height="40" Margin="5" Content="Serialize" Click="OnSerializeClicked"/>
+            <Button x:Name="Deserialize" Width="150" Height="40" Margin="5" Content="Deserialize" Click="OnDeserializeClicked"/>
         </StackPanel>
     </Grid>
 </Window>
