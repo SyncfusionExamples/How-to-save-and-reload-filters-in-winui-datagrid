@@ -10,7 +10,7 @@ Filters applied to the DataGrid can be saved by enabling the serialization of fi
 
 ``` C#
 
-private void OnSerializationClicked(object sender, RoutedEventArgs e)
+private void OnSerializeClicked(object sender, RoutedEventArgs e)
 {
       if (dataGrid == null) return;
       var serializationOptions = new SerializationOptions()
@@ -29,7 +29,7 @@ In the same way, the deserialization of serialized filters can be performed by e
 
 ``` C#
 
-private void OnDeSerializationClicked(object sender, RoutedEventArgs e)
+private void OnDeserializeClicked(object sender, RoutedEventArgs e)
 {
       if (dataGrid == null) return;
       var deserializationOptions = new DeserializationOptions()
